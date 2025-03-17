@@ -1,0 +1,54 @@
+.card {
+    /*   width: 320px; */
+      padding: 20px;
+      border: 1px solid #c9c9c9;
+      border-radius: 7px;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.card > img {
+    border-radius: 7px 7px 0 0;
+    width:100%;
+    max-width:100%;
+    height: auto;
+}
+
+.card h3 {
+    display:grid;
+    align-items: start;
+    grid-template-columns: 1fr auto;
+    color: rebeccapurple;
+}
+
+.card h3 em {
+    padding: 0.25em;
+    /* pale purple used for blod blockquote */
+    background-color: #eddbff;
+    border-radius: 4px;
+}
+
+.card p {
+    color: #757575; /* Lightest grey 4.5:1 contrast over white */
+    line-height: 1.5; /* Space between lines of the paragraph */
+}
+
+.button {
+    /* Reset text link default */
+    text-decoration: none;
+    
+    background-color: rebeccapurple;
+    color: #fff;
+    padding: 0.5em 1em; /* vertical | horizontal */
+    border-radius: 4px;
+    display:inline-block;
+}
+
+
+
+.card-row {
+    width:100%;
+    display: flex;
+    grid-template-columns: 32% 32% 32%;
+    justify-content: center; /* center */
+    align-content: middle;
+}
